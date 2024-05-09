@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    color: var(--font-color);
+    background-color: var(--backgroud-color);
+}
+
+:root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+
+    --border-radius: 12px;
+    --backgroud-color: #fff;
+    --font-color: #323232;
+}
+
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    /* margin: 0; */
+    /* margin-bottom: var(--spacing-2); */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
+    top: 0;
+    background-color: inherit;
+    padding: var(--spacing-3) 0;
+}
+
+.nav-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1140px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 0;
+    align-items: center;
+    /* margin: 0; */
+    margin-left: 0;
+}
+
+.navigation-item {
+    margin: var(--spacing-1);
+}
+
+.logo {
+    font-size: larger;
+}
+
+.portrait {
+    width: 300px;
+    height: fit-content;
+    border-radius: var(--border-radius);
+    /* flex-shrink: 0; */
+}
+
+.section-header {
+    display: flex;
+}
+
+.section-header:after {
+    background-color: var(--font-color);
+    content: "";
+    display: block;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: 39px;
+    width: 250px;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-text-container {
+    margin-right: var(--spacing-3);
+}
+
+.tech-stack li {
+    /* color: var(--slate); */
+    /* font-size: 18px; */
+    padding-left: 20px;
+    position: relative;
+}
+
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 10px));
+    list-style-type: none;
+    padding: 0;
+}
+
+.tech-stack li:before {
+    color: var(--font-color);
+    content: "▹ ";
+    left: 0;
+    position: absolute;
+}
+
+.project-image {
+    width: 50%;
+}
+
+.project-title h3 {
+    display: inline;
+}
+
+.job-description {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, minmax(150px, 10px)); */
+    list-style-type: none;
+    padding: 0;
+}
+
+.job-description li:before {
+    color: var(--font-color);
+    content: "▹ ";
+    left: 0;
+    position: absolute;
+}
+
+.job-description li {
+    /* color: var(--slate); */
+    /* font-size: 18px; */
+    /* padding-left: 20px; */
+    padding-bottom: 16px;
+    padding-left: 30px;
+    position: relative;
+}
+
+
+
+details {
+    cursor: pointer;
+}
+
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+footer {
+    margin-top: auto;
+    padding: var(--spacing-2) 0;
+    text-align: center;
+}
+
+section {
+    padding: var(--spacing-3) 0;
+}
+
+/* .section-title {
+    font-family: "Proza Libre", sans-serif;
+} */
+
+.icon {
+    font-size: 2em;
+    color: var(--font-color);
+    margin: 0 var(--spacing-1);
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+#content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* width: 100vw; */
+}
+
+#intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+}
+
+.intro-desc {
+    max-width: 600px;
+}
+
+.typing-demo {
+    width: 13ch;
+    animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .nav-container,
+    l {
+        max-width: 1140px;
+    }
+}
