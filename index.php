@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>AnaX</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/6aecce2631.js" crossorigin="anonymous"></script>
   </head>
@@ -11,13 +11,13 @@
     <nav>
         <div class="nav-container">
             
-            <ul class="navigation-items">
+            <ul class="navigation-items nav-left">
                 <li class="navigation-item logo"><a href="#intro">Ana Estreia</a></li>
                 <li class="navigation-item"><a href="#about-me">About Me</a></li>
                 <li class="navigation-item"><a href="#skills">Experience</a></li>
                 <li class="navigation-item"><a href="#projects">Projects</a></li>
             </ul>
-            <ul style="float:right" class="navigation-items">
+            <ul class="navigation-items">
                 <li class="navigation-item"><a ><i class="fa-brands fa-linkedin"></i></a></li>
                 <li class="navigation-item"><a ><i class="fab fa-github"></i></a></li>
                 <li class="navigation-item"><a ><i class="fa-solid fa-envelope"></i></a></li>
@@ -57,7 +57,7 @@
               Here are some technologies I have been working with:
             </p>
             <ul class="tech-stack">
-                <li>"Java"</li>
+                <li>Java</li>
                 <li>HTML</li>
                 <li>Flutter</li>
                 <li>JavaScript</li>
@@ -66,18 +66,20 @@
             </ul>
             <p>
               Outside of work, I'm interested in following the developments of science.
-               I also play of video games. And read books, like a lot.
+               I also play video games and read books, like a lot.
             </p>
             <p>
               Fun fact! I've been programing for
               <span id="time-container">0</span> seconds!
             </p>
           </div>
-          <img
+          <div class="portrait">
+            <img
             src="IMG_1088.jpg"
             alt="A photo of me"
-            class="portrait"
-          />
+            
+          /></div>
+          
         </div>
       </section>
 
@@ -111,7 +113,37 @@
 
       <section id="projects">
         <div class="section-header"><h2 class="section-title" >Projects</h2></div>
-        
+        <div class="project-container">
+          <ul class="project-grid">
+            <li class="project-card">
+              <div class="card-header">
+                <div class="folder-icon"><i class="fa-regular fa-folder"></i></div>
+                <span class="external-links">
+                  <a href="https://github.com/anaXtreia/TicTacToe"><i class="fab fa-github"></i></a>
+                  
+                </span>
+              </div>
+              <div class="card-title">TicTacToe</div>
+              <div class="card-desc">A TicTacToe game, developed with python.</div>
+              <div class="card-tech">Python</div>
+            </li>
+
+            <!-- <li class="project-card">
+              <div class="card-header">
+                <div class="folder-icon"><i class="fa-regular fa-folder"></i></div>
+                <span class="external-links">
+                  <a href="https://github.com/anaXtreia/TicTacToe"><i class="fab fa-github"></i></a>
+                  
+                </span>
+              </div>
+              <div class="card-title">TicTacToe</div>
+              <div class="card-desc">A TicTacToe game, developed with python. Made with love and magic sparkles..............</div>
+              <div class="card-tech">Python</div>
+            </li> -->
+
+             
+          </ul>
+        </div>
       </section>
 
       
