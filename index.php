@@ -75,7 +75,7 @@
           </div>
           <div class="portrait">
             <img
-            src="IMG_1088.jpg"
+            src="assets/IMG_1088.jpg"
             alt="A photo of me"
             
           /></div>
