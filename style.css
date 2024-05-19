@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -18,19 +19,22 @@ body {
     --spacing-4: 24px;
 
     --border-radius: 12px;
-    --backgroud-color: #fff;
-    --font-color: #323232;
+    --backgroud-color: #133b2d;
+    --title-color: #ccf6ec;
+    --font-color: #88b0a3;
+    --anim-color: #2eff9a;
 }
 
 
 h2 {
-    font-family: "Proza Libre", sans-serif;
+    font-family: "Fira Code", monospace;
+    color: var(--title-color);
     /* margin: 0; */
     /* margin-bottom: var(--spacing-2); */
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Fira Code", monospace;
     margin: 0;
     padding: 0 var(--spacing-3);
     max-width: 900px;
@@ -73,6 +77,10 @@ nav {
     margin: var(--spacing-1);
 }
 
+.navigation-item a {
+    color: var(--title-color);
+}
+
 .logo {
     font-size: larger;
 }
@@ -97,7 +105,7 @@ nav {
 }
 
 .section-header:after {
-    background-color: var(--font-color);
+    background-color: var(--title-color);
     content: "";
     display: block;
     height: 1px;
@@ -129,7 +137,7 @@ nav {
 }
 
 .tech-stack li:before {
-    color: var(--font-color);
+    color: var(--anim-color);
     content: "▹ ";
     left: 0;
     position: absolute;
@@ -151,7 +159,7 @@ nav {
 }
 
 .job-description li:before {
-    color: var(--font-color);
+    color: var(--anim-color);
     content: "▹ ";
     left: 0;
     position: absolute;
@@ -186,7 +194,7 @@ summary {
 }
 
 .project-card {
-    background-color: #32323269;
+    background-color: #082e2090;
     border-radius: 16px;
     cursor: default;
     display: flex;
@@ -225,11 +233,8 @@ summary {
 
 .folder-icon i {
     font-size: 1.5rem;
+    color: var(--anim-color);
 }
-
-/* .card-header :first-child {
-    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
-} */
 
 footer {
     margin-top: auto;
@@ -240,10 +245,6 @@ footer {
 section {
     padding: var(--spacing-3) 0;
 }
-
-/* .section-title {
-    font-family: "Proza Libre", sans-serif;
-} */
 
 .icon {
     font-size: 2em;
@@ -278,6 +279,10 @@ a {
     max-width: 600px;
 }
 
+.intro-name {
+    color: var(--anim-color);
+}
+
 .typing-demo {
     width: 13ch;
     animation: typing 2s steps(13), blink .5s step-end infinite alternate;
@@ -286,6 +291,7 @@ a {
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+    color: var(--title-color);
 }
 
 @keyframes typing {
