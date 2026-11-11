@@ -4,177 +4,222 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AnaX</title>
+  <meta name="theme-color" content="#0d1713" />
+  <meta name="description"
+    content="Ana Estreia is a software developer with a postgraduate degree in Data Science, based in the Algarve, Portugal." />
+  <title>Ana Estreia's Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/6aecce2631.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav>
+  <nav class="site-nav" aria-label="Main navigation">
     <div class="nav-container">
-
-      <ul class="navigation-items nav-left">
-        <li class="navigation-item logo"><a href="#intro">Ana Estreia</a></li>
-        <li class="navigation-item"><a href="#about-me">About</a></li>
-        <li class="navigation-item"><a href="#skills">Experience</a></li>
-        <li class="navigation-item"><a href="#projects">Projects</a></li>
-      </ul>
-      <ul class="navigation-items">
-        <li class="navigation-item"><a><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="navigation-item"><a><i class="fab fa-github"></i></a></li>
-        <li class="navigation-item"><a><i class="fa-solid fa-envelope"></i></a></li>
-        <!-- <li class="navigation-item"><a >Contact</a></li> -->
-      </ul>
+      <a class="logo" href="#intro" aria-label="Ana Estreia, home">AE<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about-me">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a
+          href="#contact">Contact</a>
+      </div>
+      <a class="nav-github" href="https://github.com/anaXtreia" target="_blank" rel="noreferrer"
+        aria-label="Visit Ana's GitHub profile"><i class="fa-brands fa-github"
+          aria-hidden="true"></i><span>GitHub</span></a>
     </div>
-
   </nav>
 
-
-
-
-
   <main>
-    <div id="intro">
-      <span class="typing-demo">Hi, <span class="intro-name">Ana</span> here!</span>
-      <p>I create stuff sometimes</p>
-      <div class="intro-desc">
-        I'm a software engineer from Faro, Portugal.
-        As a young woman in tech, I'm driven by the power
-        of coding and its ability to shape our world. I believe
-        in using technology to solve complex problems and create innovative solutions.
-      </div>
-    </div>
-    <section id="about-me">
-      <div class="section-header">
-        <h2 class="section-title">/about me</h2>
-      </div>
-
-      <div class="about-me-container">
-        <div class="about-me-text-container">
-
-          <p>
-            I am currently a Software Development Engineer,
-            working in Mobile Development. I have completed a Bachelor's
-            in Computer Science at University of Algarve.
-          </p>
-          <p>
-            Here are some technologies I have been working with:
-          </p>
-          <ul class="tech-stack">
-            <li>Java</li>
-            <li>HTML</li>
-            <li>Flutter</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>React</li>
-          </ul>
-          <p>
-            Outside of work, I'm interested in following the developments of science.
-            I also play video games and read books, like a lot.
-          </p>
-          <p>
-            Fun fact! I've been programing for
-            <span id="time-container">0</span> seconds!
-          </p>
-        </div>
-        <div class="portrait">
-          <img src="assets/IMG_1088.jpg" alt="A photo of me" />
-        </div>
-
-      </div>
+    <section id="intro" class="hero">
+      <p class="eyebrow">
+        <!-- <span class="status-dot"></span>  -->
+        SOFTWARE DEVELOPER · DATA · ALGARVE, PORTUGAL
+      </p>
+      <h1 class="typewriter" aria-label="Hi, I'm Ana. I make sense of data."><span class="typewriter-line"
+          aria-hidden="true">Hi, I'm <span class="accent">Ana.</span></span><span class="typewriter-line second-line"
+          aria-hidden="true">I make sense of data.</span></h1>
+      <p class="hero-copy">I’m a software developer with a postgraduate degree in Data Science. I enjoy turning messy
+        information into something clear and useful.</p>
+      <div class="hero-actions"><a class="text-link" href="#projects">Explore my work <span
+            aria-hidden="true">↘</span></a><!-- <a class="button-link" href="assets/Ana-Estreia-CV-EN.pdf" download>Download CV <span aria-hidden="true">↓</span></a> -->
+        <div class="hero-orbit" aria-hidden="true"><span>Software</span><span>Data</span></div>
     </section>
 
-    <section id="skills">
-      <div class="section-header">
-        <h2 class="section-title">/experience</h2>
+    <section id="about-me" class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+        <h2>Curious by nature.<br /><span>Engineer by choice.</span></h2>
       </div>
-      <div id="skills-container">
-        <p>
-          <span>Software Engineer @
-          </span>
-          <span>WeoGroup</span>
-        <div>SEP 2023 - PRESENT</div>
-        <ul class="job-description">
-          <div>
-            <li>Development and implementation of mobile applications for
-              Android and/or iOS, using the Flutter framework.</li>
-            <li>Execution of unit and user interface tests to ensure the
-              functionality and efficiency of applications.
-            </li>
-            <li>Work collaboratively with the design team to create an
-              intuitive and engaging user experience
-            </li>
-            <li>Monitoring the latest trends and technologies in mobile
-              application development to ensure applications remain
-              relevant and competitive.
-            </li>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I’m a software developer with a BSc in Computer Engineering from the University of Algarve and a
+            postgraduate degree in Data Science from the Polytechnic Institute of Portalegre.</p>
+          <p>Day to day, I work with APIs, SQL and mobile apps, which means moving data between systems and making sure
+            it arrives clean. It’s the part I enjoy most, and the reason I went deeper into data.</p>
+          <p>Outside work, I follow developments in science and read... quite a lot.</p>
+        </div>
+        <aside class="stack-card" aria-label="Technologies">
+          <p class="eyebrow">TOOLS I WORK WITH</p>
+          <div class="tool-group">
+            <h3>Data</h3>
+            <ul class="tech-stack">
+              <li>Python</li>
+              <li>pandas</li>
+              <li>NumPy</li>
+              <li>scikit-learn</li>
+              <li>TensorFlow/Keras</li>
+              <li>Jupyter Notebook</li>
+              <li>SQL</li>
+              <li>Excel</li>
+              <li>Power BI</li>
+            </ul>
           </div>
-
-
-        </ul>
-        </p>
+          <div class="tool-group">
+            <h3>Development</h3>
+            <ul class="tech-stack">
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Flutter</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>Firebase</li>
+              <li>Jira</li>
+              <li>Notion</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section id="projects">
-      <div class="section-header">
-        <h2 class="section-title">/projects</h2>
+    <section id="experience" class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">02 / WHERE I’VE BEEN</p>
+        <h2>Experience</h2>
       </div>
-      <div class="project-container">
-        <ul class="project-grid">
-          <li class="project-card">
-            <div class="card-header">
-              <div class="folder-icon"><i class="fa-regular fa-folder"></i></div>
-              <span class="external-links">
-                <a href="https://github.com/anaXtreia/TicTacToe"><i class="fab fa-github"></i></a>
-
-              </span>
+      <div class="timeline-cards">
+        <article class="experience-card">
+          <div class="experience-top">
+            <div>
+              <h3>Software Developer</h3>
+              <p class="company">WEO Group</p>
             </div>
-            <div class="card-title">TicTacToe</div>
-            <div class="card-desc">A TicTacToe game, developed with python.</div>
-            <div class="card-tech">Python</div>
-          </li>
-
-          <!-- <li class="project-card">
-              <div class="card-header">
-                <div class="folder-icon"><i class="fa-regular fa-folder"></i></div>
-                <span class="external-links">
-                  <a href="https://github.com/anaXtreia/TicTacToe"><i class="fab fa-github"></i></a>
-                  
-                </span>
-              </div>
-              <div class="card-title">TicTacToe</div>
-              <div class="card-desc">A TicTacToe game, developed with python. Made with love and magic sparkles..............</div>
-              <div class="card-tech">Python</div>
-            </li> -->
-
-
-        </ul>
+            <p class="date">SEP 2023 — PRESENT</p>
+          </div>
+          <ul class="experience-list">
+            <li>Extract and manipulate data from SQL databases and APIs to keep internal applications running on
+              accurate, up-to-date information.</li>
+            <li>Built an automated data-extraction solution that replaced manual lookups for a consulting client.</li>
+            <li>Develop cross-platform mobile apps with Flutter, integrated with backend APIs.</li>
+            <li>Researched and prototyped integrations for internal projects.</li>
+          </ul>
+        </article>
+        <article class="experience-card secondary-experience">
+          <div class="experience-top">
+            <div>
+              <h3>Mathematics Tutor</h3>
+              <p class="company">Private tutoring</p>
+            </div>
+            <p class="date">2023 — 2025</p>
+          </div>
+          <p class="experience-summary">Private tutoring for lower and upper-secondary students.</p>
+        </article>
+      </div>
+      <div class="education-block">
+        <div class="section-heading education-heading">
+          <p class="eyebrow">EDUCATION &amp; CERTIFICATES</p>
+          <h2>What I’ve learned</h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card">
+            <p class="date">2025 — 2026</p>
+            <h3>Postgraduate Degree in Data Science and Digital Transformation</h3>
+            <p>Instituto Politécnico de Portalegre</p>
+          </article>
+          <article class="education-card">
+            <p class="date">2020 — 2023</p>
+            <h3>BSc in Computer Engineering</h3>
+            <p>Universidade do Algarve (FCT)</p>
+          </article>
+          <article class="education-card certificates">
+            <p class="date">CERTIFICATES</p>
+            <h3>Additional learning</h3>
+            <p>Power BI · Introduction to Data Science · Digital Transformation</p><span
+              class="certificate-source">Santander Open Academy</span>
+          </article>
+        </div>
       </div>
     </section>
 
+    <section id="projects" class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects</h2>
+      </div>
+      <ul class="project-grid">
+        <li class="project-card">
+          <div class="card-top"><span class="project-number">01</span><a class="project-link"
+              href="https://github.com/anaXtreia/data_science_trabalhos_praticos" target="_blank" rel="noreferrer"
+              aria-label="View Data Science coursework on GitHub"><i class="fa-brands fa-github"
+                aria-hidden="true"></i></a></div>
+          <h3>Data Science coursework</h3>
+          <p>Postgraduate practical work in data analysis and machine learning, including satellite wildfire analysis,
+            prediction of students’ academic outcomes, and CNN and NLP classification experiments.</p>
+          <div class="card-bottom"><span>Python · Jupyter</span><a href="https://github.com/anaXtreia/data_science_trabalhos_praticos" target="_blank" rel="noreferrer">VIEW ON GITHUB ↗</a></div>
+        </li>
+        <li class="project-card">
+          <div class="card-top"><span class="project-number">02</span><span class="case-study-label">CASE STUDY</span>
+          </div>
+          <h3>Automated data extraction</h3>
+          <p>A bot that collects data from a public platform on a schedule, replacing manual lookups for a client. Keeps
+            information consistently up to date.</p>
+          <div class="card-bottom"><span>JavaScript · PHP</span><span>CLIENT PROJECT</span></div>
+        </li>
+        <li class="project-card">
+          <div class="card-top"><span class="project-number">03</span></div>
+          <h3>Personal finance app</h3>
+          <p>Postgraduate team project in Flutter. Tracks expenses by amount and type, filters by month and shows a
+            breakdown by category. I helped define the app structure and guided the frontend team.</p>
+          <div class="card-bottom"><span>Flutter · Dart</span><span>TEAM PROJECT</span></div>
+        </li>
+        <li class="project-card">
+          <div class="card-top"><span class="project-number">04</span><a class="project-link"
+              href="https://github.com/anaXtreia/travel-buddy" target="_blank" rel="noreferrer"
+              aria-label="View Travel Buddy on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div>
+          <h3>Travel Buddy</h3>
+          <p>Academic trip-planning app bringing flight, hotel and weather searches together, with Google authentication
+            and saved trips.</p>
+          <div class="card-bottom"><span>Java · Spring Boot · APIs</span><a href="https://github.com/anaXtreia/travel-buddy" target="_blank" rel="noreferrer">VIEW ON GITHUB ↗</a></div>
+        </li>
+      </ul>
+    </section>
 
+    <section id="contact" class="content-section contact-section">
+      <p class="eyebrow">04 / SAY HELLO</p>
+      <h2>Let’s talk.</h2>
+      <p class="contact-copy">Always happy to chat about data, code or books.</p>
+      <div class="contact-links">
+        <a href="mailto:anaestreia.w@gmail.com"><i class="fa-regular fa-envelope" aria-hidden="true"></i> Email <span
+            aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/in/ana-estreia/" target="_blank" rel="noreferrer"><i
+            class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/anaXtreia" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"
+            aria-hidden="true"></i> GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    Built and designed by Ana Estreia.<br>
-    All rights reserved. <span>©</span>
+  <footer><a class="logo" href="#intro">AE<span>.</span></a>
+    <p>Designed &amp; built by Ana Estreia.</p>
+    <div class="footer-links"><a href="mailto:anaestreia.w@gmail.com">EMAIL</a><a
+        href="https://www.linkedin.com/in/ana-estreia/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a
+        href="https://github.com/anaXtreia" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
   </footer>
 </body>
-<script>
-  const timeContainer = document.getElementById("time-container");
-  const BIRTH_DAY = "1-1-2018";
-  const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
-  const intlNumberFormatter = new Intl.NumberFormat("en-US");
-
-  setInterval(() => {
-    const now = new Date();
-    const difference = Math.floor(
-      (now.getTime() - BIRTH_DAY_DATE.getTime()) / 1000
-    );
-
-    timeContainer.innerText = intlNumberFormatter.format(difference);
-  }, 1000);
-</script>
 
 </html>
