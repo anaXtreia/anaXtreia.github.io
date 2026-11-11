@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Portfólio de Ana Estreia",
+    "description": "Ana Estreia é programadora, tem uma pós-graduação em Ciência de Dados e vive no Algarve, Portugal."
+  },
+  "nav": {
+    "aria": "Navegação principal",
+    "home": "Ana Estreia, início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contacto",
+    "githubAria": "Visitar o perfil de Ana no GitHub",
+    "languageAria": "Escolher idioma"
+  },
+  "hero": {
+    "eyebrow": "PROGRAMADORA · DADOS · ALGARVE, PORTUGAL",
+    "greeting": "Olá, sou a",
+    "name": "Ana.",
+    "titleLine": "Dou sentido aos dados.",
+    "titleAccessible": "Olá, sou a Ana. Dou sentido aos dados.",
+    "copy": "Sou programadora e tenho uma pós-graduação em Ciência de Dados. Gosto de transformar informação desorganizada em algo claro e útil.",
+    "explore": "Explora o meu trabalho",
+    "orbitDevelopment": "Software",
+    "orbitData": "Dados"
+  },
+  "about": {
+    "label": "01 / SOBRE MIM",
+    "titleFirst": "Curiosa por natureza.",
+    "titleSecond": "Engenheira por escolha.",
+    "paragraph1": "Sou programadora, licenciada em Engenharia Informática pela Universidade do Algarve, e tenho uma pós-graduação em Ciência de Dados pelo Instituto Politécnico de Portalegre.",
+    "paragraph2": "No dia a dia, trabalho com APIs, SQL e aplicações móveis. Isso implica transferir dados entre sistemas e garantir que chegam corretamente. É a parte de que mais gosto e o motivo que me levou a aprofundar os meus conhecimentos em dados.",
+    "paragraph3": "Fora do trabalho, acompanho as novidades da ciência e leio... bastante.",
+    "toolsAria": "Tecnologias",
+    "toolsTitle": "FERRAMENTAS QUE UTILIZO",
+    "data": "Dados",
+    "development": "Desenvolvimento"
+  },
+  "experience": {
+    "label": "02 / PERCURSO PROFISSIONAL",
+    "title": "Experiência",
+    "developer": "Programadora de Software",
+    "currentDate": "SET 2023 — ATUALIDADE",
+    "bullet1": "Extraio e manipulo dados de bases de dados SQL e APIs para manter as aplicações internas atualizadas e com informação correta.",
+    "bullet2": "Desenvolvi uma solução automatizada de extração de dados que substituiu pesquisas manuais para um cliente de consultoria.",
+    "bullet3": "Desenvolvo aplicações móveis multiplataforma com Flutter, integradas com APIs de backend.",
+    "bullet4": "Pesquisei e prototipei integrações para projetos internos.",
+    "tutor": "Explicadora de Matemática",
+    "privateTutoring": "Explicações particulares",
+    "tutorSummary": "Explicações particulares de Matemática a alunos do ensino básico e secundário."
+  },
+  "education": {
+    "label": "FORMAÇÃO E CERTIFICADOS",
+    "title": "O que aprendi",
+    "postgraduate": "Pós-graduação em Ciência de Dados e Transformação Digital",
+    "bachelor": "Licenciatura em Engenharia Informática",
+    "certificatesLabel": "CERTIFICADOS",
+    "certificatesTitle": "Formação complementar",
+    "certificates": "Power BI · Introdução à Ciência de Dados · Transformação Digital"
+  },
+  "projects": {
+    "label": "03 / TRABALHOS EM DESTAQUE",
+    "title": "Projetos",
+    "dataLinkAria": "Ver trabalhos de Ciência de Dados no GitHub",
+    "dataTitle": "Trabalhos de Ciência de Dados",
+    "dataDescription": "Trabalhos práticos da pós-graduação em análise de dados e aprendizagem automática: análise de incêndios detetados por satélite, previsão do percurso académico de estudantes e experiências de classificação com CNN e NLP.",
+    "githubLink": "VER NO GITHUB ↗",
+    "caseStudy": "ESTUDO DE CASO",
+    "extractionTitle": "Extração automatizada de dados",
+    "extractionDescription": "Um bot que recolhe dados de uma plataforma pública segundo um horário, substituindo pesquisas manuais para um cliente e mantendo a informação atualizada.",
+    "clientProject": "PROJETO PARA CLIENTE",
+    "financeTitle": "Aplicação de finanças pessoais",
+    "financeDescription": "Projeto de equipa da pós-graduação, desenvolvido em Flutter. Regista despesas por valor e tipo, permite filtrar por mês e apresenta uma distribuição por categoria. Ajudei a definir a estrutura da aplicação e orientei a equipa de frontend.",
+    "teamProject": "PROJETO DE EQUIPA",
+    "travelLinkAria": "Ver o Travel Buddy no GitHub",
+    "travelTitle": "Travel Buddy",
+    "travelDescription": "Aplicação académica de planeamento de viagens que reúne pesquisa de voos, hotéis e meteorologia, com autenticação Google e viagens guardadas."
+  },
+  "contact": {
+    "label": "04 / DIZ OLÁ",
+    "title": "Vamos conversar.",
+    "copy": "Gosto de conversar sobre dados, código ou livros.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "credit": "Concebido e desenvolvido por Ana Estreia.",
+    "email": "EMAIL",
+    "linkedin": "LINKEDIN ↗",
+    "github": "GITHUB ↗"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Ana Estreia's Portfolio",
+    "description": "Ana Estreia is a software developer with a postgraduate degree in Data Science, based in the Algarve, Portugal."
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "home": "Ana Estreia, home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "githubAria": "Visit Ana's GitHub profile",
+    "languageAria": "Choose language"
+  },
+  "hero": {
+    "eyebrow": "SOFTWARE DEVELOPER · DATA · ALGARVE, PORTUGAL",
+    "greeting": "Hi, I'm",
+    "name": "Ana.",
+    "titleLine": "I make sense of data.",
+    "titleAccessible": "Hi, I'm Ana. I make sense of data.",
+    "copy": "I’m a software developer with a postgraduate degree in Data Science. I enjoy turning messy information into something clear and useful.",
+    "explore": "Explore my work",
+    "orbitDevelopment": "Software",
+    "orbitData": "Data"
+  },
+  "about": {
+    "label": "01 / A LITTLE ABOUT ME",
+    "titleFirst": "Curious by nature.",
+    "titleSecond": "Engineer by choice.",
+    "paragraph1": "I’m a software developer with a BSc in Computer Engineering from the University of Algarve and a postgraduate degree in Data Science from the Polytechnic Institute of Portalegre.",
+    "paragraph2": "Day to day, I work with APIs, SQL and mobile apps, which means moving data between systems and making sure it arrives clean. It’s the part I enjoy most, and the reason I went deeper into data.",
+    "paragraph3": "Outside work, I follow developments in science and read... quite a lot.",
+    "toolsAria": "Technologies",
+    "toolsTitle": "TOOLS I WORK WITH",
+    "data": "Data",
+    "development": "Development"
+  },
+  "experience": {
+    "label": "02 / WHERE I’VE BEEN",
+    "title": "Experience",
+    "developer": "Software Developer",
+    "currentDate": "SEP 2023 — PRESENT",
+    "bullet1": "Extract and manipulate data from SQL databases and APIs to keep internal applications running on accurate, up-to-date information.",
+    "bullet2": "Built an automated data-extraction solution that replaced manual lookups for a consulting client.",
+    "bullet3": "Develop cross-platform mobile apps with Flutter, integrated with backend APIs.",
+    "bullet4": "Researched and prototyped integrations for internal projects.",
+    "tutor": "Mathematics Tutor",
+    "privateTutoring": "Private tutoring",
+    "tutorSummary": "Private tutoring for lower and upper-secondary students."
+  },
+  "education": {
+    "label": "EDUCATION & CERTIFICATES",
+    "title": "What I’ve learned",
+    "postgraduate": "Postgraduate Degree in Data Science and Digital Transformation",
+    "bachelor": "BSc in Computer Engineering",
+    "certificatesLabel": "CERTIFICATES",
+    "certificatesTitle": "Additional learning",
+    "certificates": "Power BI · Introduction to Data Science · Digital Transformation"
+  },
+  "projects": {
+    "label": "03 / SELECTED WORK",
+    "title": "Projects",
+    "dataLinkAria": "View Data Science coursework on GitHub",
+    "dataTitle": "Data Science coursework",
+    "dataDescription": "Postgraduate practical work in data analysis and machine learning, including satellite wildfire analysis, prediction of students’ academic outcomes, and CNN and NLP classification experiments.",
+    "githubLink": "VIEW ON GITHUB ↗",
+    "caseStudy": "CASE STUDY",
+    "extractionTitle": "Automated data extraction",
+    "extractionDescription": "A bot that collects data from a public platform on a schedule, replacing manual lookups for a client. Keeps information consistently up to date.",
+    "clientProject": "CLIENT PROJECT",
+    "financeTitle": "Personal finance app",
+    "financeDescription": "Postgraduate team project in Flutter. Tracks expenses by amount and type, filters by month and shows a breakdown by category. I helped define the app structure and guided the frontend team.",
+    "teamProject": "TEAM PROJECT",
+    "travelLinkAria": "View Travel Buddy on GitHub",
+    "travelTitle": "Travel Buddy",
+    "travelDescription": "Academic trip-planning app bringing flight, hotel and weather searches together, with Google authentication and saved trips."
+  },
+  "contact": {
+    "label": "04 / SAY HELLO",
+    "title": "Let’s talk.",
+    "copy": "Always happy to chat about data, code or books.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "credit": "Designed & built by Ana Estreia.",
+    "email": "EMAIL",
+    "linkedin": "LINKEDIN ↗",
+    "github": "GITHUB ↗"
+  }
+}

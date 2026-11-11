@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0d1713" />
-  <meta name="description"
+  <meta name="description" data-i18n-attr="content:meta.description"
     content="Ana Estreia is a software developer with a postgraduate degree in Data Science, based in the Algarve, Portugal." />
-  <title>Ana Estreia's Portfolio</title>
+  <title data-i18n="meta.title">Ana Estreia's Portfolio</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,19 +16,22 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/6aecce2631.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <nav class="site-nav" aria-label="Main navigation">
+  <nav class="site-nav" aria-label="Main navigation" data-i18n-attr="aria-label:nav.aria">
     <div class="nav-container">
-      <a class="logo" href="#intro" aria-label="Ana Estreia, home">AE<span>.</span></a>
+      <a class="logo" href="#intro" aria-label="Ana Estreia, home" data-i18n-attr="aria-label:nav.home">AE<span>.</span></a>
       <div class="nav-links">
-        <a href="#about-me">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a
-          href="#contact">Contact</a>
+        <a href="#about-me" data-i18n="nav.about">About</a><a href="#experience" data-i18n="nav.experience">Experience</a><a href="#projects" data-i18n="nav.projects">Projects</a><a href="#contact" data-i18n="nav.contact">Contact</a>
       </div>
       <a class="nav-github" href="https://github.com/anaXtreia" target="_blank" rel="noreferrer"
-        aria-label="Visit Ana's GitHub profile"><i class="fa-brands fa-github"
-          aria-hidden="true"></i><span>GitHub</span></a>
+        aria-label="Visit Ana's GitHub profile" data-i18n-attr="aria-label:nav.githubAria"><i class="fa-brands fa-github" aria-hidden="true"></i><span data-i18n="contact.github">GitHub</span></a>
+      <div class="language-switch" role="group" aria-label="Choose language" data-i18n-attr="aria-label:nav.languageAria">
+        <button type="button" data-language="en" aria-pressed="true">EN</button>
+        <button type="button" data-language="pt" aria-pressed="false">PT</button>
+      </div>
     </div>
   </nav>
 
@@ -36,35 +39,30 @@
     <section id="intro" class="hero">
       <p class="eyebrow">
         <!-- <span class="status-dot"></span>  -->
-        SOFTWARE DEVELOPER · DATA · ALGARVE, PORTUGAL
+        <span data-i18n="hero.eyebrow">SOFTWARE DEVELOPER · DATA · ALGARVE, PORTUGAL</span>
       </p>
-      <h1 class="typewriter" aria-label="Hi, I'm Ana. I make sense of data."><span class="typewriter-line"
-          aria-hidden="true">Hi, I'm <span class="accent">Ana.</span></span><span class="typewriter-line second-line"
-          aria-hidden="true">I make sense of data.</span></h1>
-      <p class="hero-copy">I’m a software developer with a postgraduate degree in Data Science. I enjoy turning messy
-        information into something clear and useful.</p>
-      <div class="hero-actions"><a class="text-link" href="#projects">Explore my work <span
-            aria-hidden="true">↘</span></a><!-- <a class="button-link" href="assets/Ana-Estreia-CV-EN.pdf" download>Download CV <span aria-hidden="true">↓</span></a> -->
-        <div class="hero-orbit" aria-hidden="true"><span>Software</span><span>Data</span></div>
+      <h1 class="typewriter" aria-label="Hi, I'm Ana. I make sense of data." data-i18n-attr="aria-label:hero.titleAccessible"><span class="typewriter-line" aria-hidden="true"><span data-i18n="hero.greeting">Hi, I'm</span> <span class="accent" data-i18n="hero.name">Ana.</span></span><span class="typewriter-line second-line" aria-hidden="true" data-i18n="hero.titleLine">I make sense of data.</span></h1>
+      <p class="hero-copy" data-i18n="hero.copy">I’m a software developer with a postgraduate degree in Data Science. I enjoy turning messy information into something clear and useful.</p>
+      <div class="hero-actions"><a class="text-link" href="#projects"><span data-i18n="hero.explore">Explore my work</span> <span
+            aria-hidden="true">↘</span></a><!-- <a class="button-link" href="assets/Ana-Estreia-CV-EN.pdf" download>Download CV <span aria-hidden="true">↓</span></a> --></div>
+      <div class="hero-orbit" aria-hidden="true"><span data-i18n="hero.orbitDevelopment">Software</span><span data-i18n="hero.orbitData">Data</span></div>
     </section>
 
     <section id="about-me" class="content-section">
       <div class="section-heading">
-        <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
-        <h2>Curious by nature.<br /><span>Engineer by choice.</span></h2>
+        <p class="eyebrow" data-i18n="about.label">01 / A LITTLE ABOUT ME</p>
+        <h2><span class="heading-line" data-i18n="about.titleFirst">Curious by nature.</span><br /><span data-i18n="about.titleSecond">Engineer by choice.</span></h2>
       </div>
       <div class="about-grid">
         <div class="about-copy">
-          <p>I’m a software developer with a BSc in Computer Engineering from the University of Algarve and a
-            postgraduate degree in Data Science from the Polytechnic Institute of Portalegre.</p>
-          <p>Day to day, I work with APIs, SQL and mobile apps, which means moving data between systems and making sure
-            it arrives clean. It’s the part I enjoy most, and the reason I went deeper into data.</p>
-          <p>Outside work, I follow developments in science and read... quite a lot.</p>
+          <p data-i18n="about.paragraph1">I’m a software developer with a BSc in Computer Engineering from the University of Algarve and a postgraduate degree in Data Science from the Polytechnic Institute of Portalegre.</p>
+          <p data-i18n="about.paragraph2">Day to day, I work with APIs, SQL and mobile apps, which means moving data between systems and making sure it arrives clean. It’s the part I enjoy most, and the reason I went deeper into data.</p>
+          <p data-i18n="about.paragraph3">Outside work, I follow developments in science and read... quite a lot.</p>
         </div>
-        <aside class="stack-card" aria-label="Technologies">
-          <p class="eyebrow">TOOLS I WORK WITH</p>
+        <aside class="stack-card" aria-label="Technologies" data-i18n-attr="aria-label:about.toolsAria">
+          <p class="eyebrow" data-i18n="about.toolsTitle">TOOLS I WORK WITH</p>
           <div class="tool-group">
-            <h3>Data</h3>
+            <h3 data-i18n="about.data">Data</h3>
             <ul class="tech-stack">
               <li>Python</li>
               <li>pandas</li>
@@ -78,7 +76,7 @@
             </ul>
           </div>
           <div class="tool-group">
-            <h3>Development</h3>
+            <h3 data-i18n="about.development">Development</h3>
             <ul class="tech-stack">
               <li>PHP</li>
               <li>JavaScript</li>
@@ -99,57 +97,57 @@
 
     <section id="experience" class="content-section">
       <div class="section-heading">
-        <p class="eyebrow">02 / WHERE I’VE BEEN</p>
-        <h2>Experience</h2>
+        <p class="eyebrow" data-i18n="experience.label">02 / WHERE I’VE BEEN</p>
+        <h2 data-i18n="experience.title">Experience</h2>
       </div>
       <div class="timeline-cards">
         <article class="experience-card">
           <div class="experience-top">
             <div>
-              <h3>Software Developer</h3>
+              <h3 data-i18n="experience.developer">Software Developer</h3>
               <p class="company">WEO Group</p>
             </div>
-            <p class="date">SEP 2023 — PRESENT</p>
+            <p class="date" data-i18n="experience.currentDate">SEP 2023 — PRESENT</p>
           </div>
           <ul class="experience-list">
-            <li>Extract and manipulate data from SQL databases and APIs to keep internal applications running on
+            <li data-i18n="experience.bullet1">Extract and manipulate data from SQL databases and APIs to keep internal applications running on
               accurate, up-to-date information.</li>
-            <li>Built an automated data-extraction solution that replaced manual lookups for a consulting client.</li>
-            <li>Develop cross-platform mobile apps with Flutter, integrated with backend APIs.</li>
-            <li>Researched and prototyped integrations for internal projects.</li>
+            <li data-i18n="experience.bullet2">Built an automated data-extraction solution that replaced manual lookups for a consulting client.</li>
+            <li data-i18n="experience.bullet3">Develop cross-platform mobile apps with Flutter, integrated with backend APIs.</li>
+            <li data-i18n="experience.bullet4">Researched and prototyped integrations for internal projects.</li>
           </ul>
         </article>
         <article class="experience-card secondary-experience">
           <div class="experience-top">
             <div>
-              <h3>Mathematics Tutor</h3>
-              <p class="company">Private tutoring</p>
+              <h3 data-i18n="experience.tutor">Mathematics Tutor</h3>
+              <p class="company" data-i18n="experience.privateTutoring">Private tutoring</p>
             </div>
             <p class="date">2023 — 2025</p>
           </div>
-          <p class="experience-summary">Private tutoring for lower and upper-secondary students.</p>
+          <p class="experience-summary" data-i18n="experience.tutorSummary">Private tutoring for lower and upper-secondary students.</p>
         </article>
       </div>
       <div class="education-block">
         <div class="section-heading education-heading">
-          <p class="eyebrow">EDUCATION &amp; CERTIFICATES</p>
-          <h2>What I’ve learned</h2>
+          <p class="eyebrow" data-i18n="education.label">EDUCATION &amp; CERTIFICATES</p>
+          <h2 data-i18n="education.title">What I’ve learned</h2>
         </div>
         <div class="education-grid">
           <article class="education-card">
             <p class="date">2025 — 2026</p>
-            <h3>Postgraduate Degree in Data Science and Digital Transformation</h3>
+            <h3 data-i18n="education.postgraduate">Postgraduate Degree in Data Science and Digital Transformation</h3>
             <p>Instituto Politécnico de Portalegre</p>
           </article>
           <article class="education-card">
             <p class="date">2020 — 2023</p>
-            <h3>BSc in Computer Engineering</h3>
+            <h3 data-i18n="education.bachelor">BSc in Computer Engineering</h3>
             <p>Universidade do Algarve (FCT)</p>
           </article>
           <article class="education-card certificates">
-            <p class="date">CERTIFICATES</p>
-            <h3>Additional learning</h3>
-            <p>Power BI · Introduction to Data Science · Digital Transformation</p><span
+            <p class="date" data-i18n="education.certificatesLabel">CERTIFICATES</p>
+            <h3 data-i18n="education.certificatesTitle">Additional learning</h3>
+            <p data-i18n="education.certificates">Power BI · Introduction to Data Science · Digital Transformation</p><span
               class="certificate-source">Santander Open Academy</span>
           </article>
         </div>
@@ -158,67 +156,67 @@
 
     <section id="projects" class="content-section">
       <div class="section-heading">
-        <p class="eyebrow">03 / SELECTED WORK</p>
-        <h2>Projects</h2>
+        <p class="eyebrow" data-i18n="projects.label">03 / SELECTED WORK</p>
+        <h2 data-i18n="projects.title">Projects</h2>
       </div>
       <ul class="project-grid">
         <li class="project-card">
           <div class="card-top"><span class="project-number">01</span><a class="project-link"
               href="https://github.com/anaXtreia/data_science_trabalhos_praticos" target="_blank" rel="noreferrer"
-              aria-label="View Data Science coursework on GitHub"><i class="fa-brands fa-github"
+              aria-label="View Data Science coursework on GitHub" data-i18n-attr="aria-label:projects.dataLinkAria"><i class="fa-brands fa-github"
                 aria-hidden="true"></i></a></div>
-          <h3>Data Science coursework</h3>
-          <p>Postgraduate practical work in data analysis and machine learning, including satellite wildfire analysis,
+          <h3 data-i18n="projects.dataTitle">Data Science coursework</h3>
+          <p data-i18n="projects.dataDescription">Postgraduate practical work in data analysis and machine learning, including satellite wildfire analysis,
             prediction of students’ academic outcomes, and CNN and NLP classification experiments.</p>
-          <div class="card-bottom"><span>Python · Jupyter</span><a href="https://github.com/anaXtreia/data_science_trabalhos_praticos" target="_blank" rel="noreferrer">VIEW ON GITHUB ↗</a></div>
+          <div class="card-bottom"><span>Python · Jupyter</span><a href="https://github.com/anaXtreia/data_science_trabalhos_praticos" target="_blank" rel="noreferrer" data-i18n="projects.githubLink">VIEW ON GITHUB ↗</a></div>
         </li>
         <li class="project-card">
-          <div class="card-top"><span class="project-number">02</span><span class="case-study-label">CASE STUDY</span>
+          <div class="card-top"><span class="project-number">02</span><span class="case-study-label" data-i18n="projects.caseStudy">CASE STUDY</span>
           </div>
-          <h3>Automated data extraction</h3>
-          <p>A bot that collects data from a public platform on a schedule, replacing manual lookups for a client. Keeps
+          <h3 data-i18n="projects.extractionTitle">Automated data extraction</h3>
+          <p data-i18n="projects.extractionDescription">A bot that collects data from a public platform on a schedule, replacing manual lookups for a client. Keeps
             information consistently up to date.</p>
-          <div class="card-bottom"><span>JavaScript · PHP</span><span>CLIENT PROJECT</span></div>
+          <div class="card-bottom"><span>JavaScript · PHP</span><span data-i18n="projects.clientProject">CLIENT PROJECT</span></div>
         </li>
         <li class="project-card">
           <div class="card-top"><span class="project-number">03</span></div>
-          <h3>Personal finance app</h3>
-          <p>Postgraduate team project in Flutter. Tracks expenses by amount and type, filters by month and shows a
+          <h3 data-i18n="projects.financeTitle">Personal finance app</h3>
+          <p data-i18n="projects.financeDescription">Postgraduate team project in Flutter. Tracks expenses by amount and type, filters by month and shows a
             breakdown by category. I helped define the app structure and guided the frontend team.</p>
-          <div class="card-bottom"><span>Flutter · Dart</span><span>TEAM PROJECT</span></div>
+          <div class="card-bottom"><span>Flutter · Dart</span><span data-i18n="projects.teamProject">TEAM PROJECT</span></div>
         </li>
         <li class="project-card">
           <div class="card-top"><span class="project-number">04</span><a class="project-link"
               href="https://github.com/anaXtreia/travel-buddy" target="_blank" rel="noreferrer"
-              aria-label="View Travel Buddy on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div>
-          <h3>Travel Buddy</h3>
-          <p>Academic trip-planning app bringing flight, hotel and weather searches together, with Google authentication
+              aria-label="View Travel Buddy on GitHub" data-i18n-attr="aria-label:projects.travelLinkAria"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div>
+          <h3 data-i18n="projects.travelTitle">Travel Buddy</h3>
+          <p data-i18n="projects.travelDescription">Academic trip-planning app bringing flight, hotel and weather searches together, with Google authentication
             and saved trips.</p>
-          <div class="card-bottom"><span>Java · Spring Boot · APIs</span><a href="https://github.com/anaXtreia/travel-buddy" target="_blank" rel="noreferrer">VIEW ON GITHUB ↗</a></div>
+          <div class="card-bottom"><span>Java · Spring Boot · APIs</span><a href="https://github.com/anaXtreia/travel-buddy" target="_blank" rel="noreferrer" data-i18n="projects.githubLink">VIEW ON GITHUB ↗</a></div>
         </li>
       </ul>
     </section>
 
     <section id="contact" class="content-section contact-section">
-      <p class="eyebrow">04 / SAY HELLO</p>
-      <h2>Let’s talk.</h2>
-      <p class="contact-copy">Always happy to chat about data, code or books.</p>
+      <p class="eyebrow" data-i18n="contact.label">04 / SAY HELLO</p>
+      <h2 data-i18n="contact.title">Let’s talk.</h2>
+      <p class="contact-copy" data-i18n="contact.copy">Always happy to chat about data, code or books.</p>
       <div class="contact-links">
-        <a href="mailto:anaestreia.w@gmail.com"><i class="fa-regular fa-envelope" aria-hidden="true"></i> Email <span
+        <a href="mailto:anaestreia.w@gmail.com"><i class="fa-regular fa-envelope" aria-hidden="true"></i> <span data-i18n="contact.email">Email</span> <span
             aria-hidden="true">↗</span></a>
         <a href="https://www.linkedin.com/in/ana-estreia/" target="_blank" rel="noreferrer"><i
-            class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn <span aria-hidden="true">↗</span></a>
+            class="fa-brands fa-linkedin" aria-hidden="true"></i> <span data-i18n="contact.linkedin">LinkedIn</span> <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/anaXtreia" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"
-            aria-hidden="true"></i> GitHub <span aria-hidden="true">↗</span></a>
+            aria-hidden="true"></i> <span data-i18n="contact.github">GitHub</span> <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
   <footer><a class="logo" href="#intro">AE<span>.</span></a>
-    <p>Designed &amp; built by Ana Estreia.</p>
-    <div class="footer-links"><a href="mailto:anaestreia.w@gmail.com">EMAIL</a><a
-        href="https://www.linkedin.com/in/ana-estreia/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a
-        href="https://github.com/anaXtreia" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
+    <p data-i18n="footer.credit">Designed &amp; built by Ana Estreia.</p>
+    <div class="footer-links"><a href="mailto:anaestreia.w@gmail.com" data-i18n="footer.email">EMAIL</a><a
+        href="https://www.linkedin.com/in/ana-estreia/" target="_blank" rel="noreferrer" data-i18n="footer.linkedin">LINKEDIN ↗</a><a
+        href="https://github.com/anaXtreia" target="_blank" rel="noreferrer" data-i18n="footer.github">GITHUB ↗</a></div>
   </footer>
 </body>
 
